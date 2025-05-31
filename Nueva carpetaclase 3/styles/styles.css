@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: azure;
+    width: 50%;
+    margin: auto;
+    transition: transform 0.3s ease;
+    justify-items: center;
+    border: 20px;
+}
+
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+.card:hover{
+transform: scale(1.5);
+}
+
+p{
+    font-size: 18px;
+    color: black;
+
+}
+
+.boton{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    text-decoration: antiquewhite;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background 0.03s;
+}
